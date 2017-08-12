@@ -257,6 +257,8 @@ print(vague_list[2])
 print(vague_list[2])
 # Data Hiding
 
+# can still be accessed by external code
+
 
 class Queue:
     def __init__(self, contents):
@@ -279,3 +281,18 @@ print(queue)
 queue.pop()
 print(queue)
 print(queue._hiddenlist)
+
+# Strongly private method
+
+
+class Spam:
+    __egg = 7
+
+    def print_egg(self):
+        print(self.__egg)
+
+
+s = Spam()
+s.print_egg()
+print(s._Spam__egg)
+print(s.__egg)
