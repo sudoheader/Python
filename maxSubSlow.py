@@ -1,6 +1,6 @@
 # Alogorithm MaxsubSlow(A):
 #   Input: An n-element array A of numbers, indexed from 1 to n.
-#   Output: THe maximum subarray sum of array A.
+#   Output: The maximum subarray sum of array A.
 #   m <- 0 // the maximum found so far
 #   for j <- 1 to n do
 #       for k <- j to n do
