@@ -26,3 +26,6 @@ def maxSubFaster(n):
             if s > m:
                 m = s
     return m
+
+a = [1, 2, 3]
+print maxSubFaster(a)
