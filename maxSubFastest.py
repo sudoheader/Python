@@ -19,5 +19,5 @@ def maxSubFastest(a):
         m = max(m, m[t])
     return m
 
-n = [1, 2, 3])
+n = [1, 2, 3]
 maxSubFastest(n)
