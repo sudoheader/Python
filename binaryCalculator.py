@@ -10,4 +10,4 @@ if y < 256:
     print(bin(x))
 else:
     print("Your value is too high")
-print("Your answer is ", x + y, " the binary is ", bin(x + y))
+print("Your answer is", x + y, "the binary is", bin(x + y))
