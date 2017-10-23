@@ -3,9 +3,9 @@ def stoogesort(L, i, j):
 		L[i], L[j] = L[j], L[i]
 	if j - i > 1:
 		t = (j - i + 1) // 3
-		stoogesort(L, i  , j - t)
-		stoogesort(L, i + t, j  )
-		stoogesort(L, i  , j - t)
+		stoogesort(L, i, j - t)
+		stoogesort(L, i + t, j)
+		stoogesort(L, i, j - t)
 	return L
 
 def stooge(L):
